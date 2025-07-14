@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rádio Nova</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(#fefefe, #ececec);
+      color: #333;
+      text-align: center;
+      padding: 40px;
+    }
+    header {
+      background-color: #f8d57e;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 10px 0 0 0;
+    }
+    .player {
+      margin-top: 30px;
+    }
+    audio {
+      width: 80%;
+      max-width: 400px;
+      outline: none;
+    }
+    .logo {
+      width: 150px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="doguinho.png" alt="Logo Rádio Nova" class="logo" />
+    <h1>Rádio Nova</h1>
+    <p>música, informação e interatividade</p>
+  </header>
+
+  <div class="player">
+    <h2>Ouça agora:</h2>
+    <audio controls autoplay>
+      <source src="http://stm1.robertinho.com.br:7326/;" type="audio/mpeg">
+      Seu navegador não suporta áudio HTML5.
+    </audio>
+  </div>
+</body>
+</html>
